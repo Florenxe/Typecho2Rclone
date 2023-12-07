@@ -1,5 +1,5 @@
 # Typecho2Rclone
-- 适用于自动备份 Typecho 博客并通过 Rclone 定时上传到远程存储的 Bash 脚本
+- 适用于自动备份 Typecho 博客并通过 Rclone 定时上传到远程存储的易用 Shell 脚本
 - 理论上亦可适用于其他文件夹的定时备份。
 - Powered by ChatGPT
 
