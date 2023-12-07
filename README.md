@@ -13,8 +13,11 @@
 - 灵活适用：理论上亦可适用于其他文件夹的定时备份，但请注意`/tmp`容量与需备份文件夹的体积。备份时需要在`/tmp`额外占用体积为` 需备份文件夹+需备份文件夹打包后的压缩文件` 的磁盘空间作为临时存储。
 
 ## 使用方法
-- 请确保当前用户在当前工作目录下有创建文件权限，并已安装Curl
-    
+- 请确保当前用户在当前工作目录下有创建文件权限，并安装curl：
+    ```
+    apt update && apt install curl
+    ```
+- 运行：
     ```
     bash -c "$(curl -sSL https://raw.githubusercontent.com/Florenxe/Typecho2Rclone/main/Typecho2Rclone.sh)"
     ```
